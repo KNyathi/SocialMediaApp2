@@ -12,7 +12,7 @@
 ### Users
 - http://localhost:5000/api/users/signup (create an account) [POST]
 - http://localhost:5000/api/users/login (log in to your account) [POST]
-- http://localhost:5000/api/users/login (log out of your account) [POST]
+- http://localhost:5000/api/users/logout (log out of your account) [POST]
 - http://localhost:5000/api/users/follow (follow user) [POST]
 - http://localhost:5000/api/users/update/:id (updating a user) [POST]
 - http://localhost:5000/api/users/profile/:id (get a profile) [GET]
