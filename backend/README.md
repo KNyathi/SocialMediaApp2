@@ -16,3 +16,11 @@
 - http://localhost:5000/api/users/follow (follow user) [POST]
 - http://localhost:5000/api/users/update/:id (updating a user) [POST]
 - http://localhost:5000/api/users/profile/:id (get a profile) [GET]
+
+### Dependencies
+- Express (web framework for nodejs)
+- jsonwebtoken (JWT)
+- mongoose (work with MongoDB)
+- bycryptjs (hashing passwords when stored in database)
+- dotenv (hide environmental keys)
+- cookie-parser (parses cookies attached to client's request)
