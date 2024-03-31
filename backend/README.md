@@ -24,3 +24,7 @@
 - bycryptjs (hashing passwords when stored in database)
 - dotenv (hide environmental keys)
 - cookie-parser (parses cookies attached to client's request)
+
+### Status
+400 - User already exists
+
