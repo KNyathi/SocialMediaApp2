@@ -35,5 +35,13 @@
 - 401 Unauthorized: The request requires user authentication.
 - 403 Forbidden: The server understood the request, but it refuses to authorize it.
 - 404 Not Found: The server cannot find the requested resource.
-
-3
+3) 3xx Redirection:
+- 301 Moved Permanently: The requested resource has been permanently moved to a new location.
+- 304 Not Modified: The client's cached copy is up-to-date, so the server responds without sending the requested content.
+4) 2xx Success:
+- 200 OK: The request has succeeded.
+- 201 Created: The request has been fulfilled, and a new resource is created.
+- 204 No Content: The server successfully processed the request but does not need to return an entity-body.
+5) 1xx Informational:
+- 100 Continue: The server has received the request headers and the client should proceed to send the request body.
+- 101 Switching Protocols: The server is changing protocols, such as switching to WebSocket.
