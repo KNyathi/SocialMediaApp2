@@ -30,3 +30,10 @@
 - 500 Internal Server Error: A generic error message indicating a problem with the server.
 - 503 Service Unavailable: The server is currently unavailable (e.g., due to maintenance or overload).
 - 504 Gateway Timeout: The server, while acting as a gateway or proxy, did not receive a timely response from the upstream server it accessed in attempting to complete the request.
+2) 4xx Client Error:
+- 400 Bad Request: The server cannot process the request due to a client error (e.g., malformed request syntax).
+- 401 Unauthorized: The request requires user authentication.
+- 403 Forbidden: The server understood the request, but it refuses to authorize it.
+- 404 Not Found: The server cannot find the requested resource.
+
+3
