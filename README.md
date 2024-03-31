@@ -42,7 +42,7 @@ For Frontend (Open the frontend directory and type):
 ```shell
 npm install
 npm run dev
-``
+```
 
 ### Build the app
 
