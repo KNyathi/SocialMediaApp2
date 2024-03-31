@@ -3,7 +3,7 @@ import { Box, Flex, Link, Text, VStack } from "@chakra-ui/layout";
 import { Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/menu";
 import { Portal } from "@chakra-ui/portal";
 import { Button, useToast } from "@chakra-ui/react";
-import { BsInstagram } from "react-icons/bs";
+import { SlSocialVkontakte } from "react-icons/sl"; 
 import { CgMoreO } from "react-icons/cg";
 import { useRecoilValue } from "recoil";
 import userAtom from "../atoms/userAtom";
@@ -36,9 +36,9 @@ const UserHeader = ({ user }) => {
 						{user.name}
 					</Text>
 					<Flex gap={2} alignItems={"center"}>
-						<Text fontSize={"sm"}>{user.username}</Text>
+						<Text fontSize={"sm"} >@{user.username}</Text>
 						<Text fontSize={"xs"} bg={"gray.dark"} color={"gray.light"} p={1} borderRadius={"full"}>
-							threads.net
+							sober user
 						</Text>
 					</Flex>
 				</Box>
@@ -82,11 +82,11 @@ const UserHeader = ({ user }) => {
 				<Flex gap={2} alignItems={"center"}>
 					<Text color={"gray.light"}>{user.followers.length} followers</Text>
 					<Box w='1' h='1' bg={"gray.light"} borderRadius={"full"}></Box>
-					<Link color={"gray.light"}>instagram.com</Link>
+					<Link color={"gray.light"} href="https://vk.ru">vk.ru</Link>
 				</Flex>
 				<Flex>
 					<Box className='icon-container'>
-						<BsInstagram size={24} cursor={"pointer"} />
+						<SlSocialVkontakte size={24} cursor={"pointer"}  />
 					</Box>
 					<Box className='icon-container'>
 						<Menu>

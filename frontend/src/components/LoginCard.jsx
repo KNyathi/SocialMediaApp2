@@ -55,7 +55,7 @@ export default function LoginCard() {
 		}
 	};
 	return (
-		<Flex align={"center"} justify={"center"}>
+		<Flex align={"center"} justify={"center"} bgImage="url('../public/svg1.svg')" bgSize="cover" minHeight="40vh">
 			<Stack spacing={8} mx={"auto"} maxW={"lg"} py={12} px={6}>
 				<Stack align={"center"}>
 					<Heading fontSize={"4xl"} textAlign={"center"}>
