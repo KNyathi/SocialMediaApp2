@@ -26,5 +26,7 @@
 - cookie-parser (parses cookies attached to client's request)
 
 ### Status
-400 - User already exists
-201 - User created
+1) 5xx Server Error:
+- 500 Internal Server Error: A generic error message indicating a problem with the server.
+- 503 Service Unavailable: The server is currently unavailable (e.g., due to maintenance or overload).
+- 504 Gateway Timeout: The server, while acting as a gateway or proxy, did not receive a timely response from the upstream server it accessed in attempting to complete the request.
