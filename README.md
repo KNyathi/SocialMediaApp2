@@ -1,5 +1,4 @@
-# 12+ Hour MERN Masterclass: Build and Deploy a Threads App with Real-Time Chat Functionality
-
+# Social Media App
 Feature List:
 
 -   🌟 Tech stack: MERN + Socket.io + Chakra UI
@@ -15,7 +14,6 @@ Feature List:
 -   💬 Chat App With Image Support
 -   👀 Seen/Unseen Status for Messages
 -   🔊 Notification sounds
--   ⭐ Deployment for FREE
 
 ### Setup .env file
 
