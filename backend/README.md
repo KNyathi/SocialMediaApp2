@@ -27,4 +27,4 @@
 
 ### Status
 400 - User already exists
-
+201 - User created
