@@ -58,7 +58,7 @@ export default function SignupCard() {
 	};
 
 	return (
-		<Flex align={"center"} justify={"center"} bgImage="url('../public/svg2.svg')" bgSize="contain" minHeight="20vh">
+		<Flex align={"center"} justify={"center"} bgImage="url('../public/svg2.svg')" bgSize="contain" bgRepeat="no-repeat" minHeight="20vh">
 			<Stack spacing={8} mx={"auto"} maxW={"lg"} py={12} px={6}>
 				<Stack align={"center"}>
 					<Heading fontSize={"4xl"} textAlign={"center"}>

@@ -76,7 +76,7 @@ const PostPage = () => {
 					<Avatar src={user.profilePic} size={"md"} name='Mark Zuckerberg' />
 					<Flex>
 						<Text fontSize={"sm"} fontWeight={"bold"}>
-							{user.username}
+							@{user.username}
 						</Text>
 						<Image src='/verified.png' w='4' h={4} ml={4} />
 					</Flex>
