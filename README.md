@@ -1,9 +1,5 @@
 # 12+ Hour MERN Masterclass: Build and Deploy a Threads App with Real-Time Chat Functionality
 
-![Demo App](https://i.ibb.co/BnGdh10/Group-62.png)
-
-[Video Tutorial on Youtube](https://youtu.be/G4V4xO9wyD8)
-
 Feature List:
 
 -   🌟 Tech stack: MERN + Socket.io + Chakra UI
@@ -31,6 +27,22 @@ CLOUDINARY_CLOUD_NAME=...
 CLOUDINARY_API_KEY=...
 CLOUDINARY_API_SECRET=...
 ```
+
+### Install dependencies before production
+
+For backend (Open the backend directory and type):
+
+```shell
+
+npm install
+npm start
+```
+
+For Frontend (Open the frontend directory and type):
+```shell
+npm install
+npm run dev
+``
 
 ### Build the app
 
